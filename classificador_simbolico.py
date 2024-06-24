@@ -5,8 +5,8 @@ def main():
   from spellchecker import SpellChecker
   import pickle
 
-  nltk.download('punkt')
-  nltk.download('averaged_perceptron_tagger')
+  nltk.download('punkt', quiet=True)
+  nltk.download('averaged_perceptron_tagger', quiet=True)
   
   # -------------------------- Utils ----------------------------# 
 
